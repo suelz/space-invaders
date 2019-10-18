@@ -25,6 +25,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\alien.png" />
+    <Content Include="img\background.jpg" />
+    <Content Include="img\github.png" />
     <Content Include="img\player.png" />
     <Content Include="img\space-invaders.png" />
   </ItemGroup>
