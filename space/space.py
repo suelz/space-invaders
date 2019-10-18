@@ -44,7 +44,7 @@ enemyX = []
 enemyY = []
 enemyX_Change = []
 enemyY_Change = []
-numEnemies = 6
+numEnemies = 100
 for enemy in range(numEnemies):
     enemyImg.append(pygame.image.load('img/alien.png')) # Icon made by Smashicons from www.flaticon.com
     enemyX.append(random.randint(0, 736))
@@ -115,7 +115,7 @@ while running:
     for i in range(numEnemies): 
 
         #game over
-        if enemyY[i] > 480:
+        if enemyY[i] > 450:
             for j in range(numEnemies):
                 enemyY[j] = 2000
             gameOver()
