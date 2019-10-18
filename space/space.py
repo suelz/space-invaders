@@ -115,7 +115,7 @@ while running:
     for i in range(numEnemies): 
 
         #game over
-        if enemyY[i] > 200:
+        if enemyY[i] > 480:
             for j in range(numEnemies):
                 enemyY[j] = 2000
             gameOver()
@@ -141,7 +141,7 @@ while running:
 
         enemy(enemyX[i], enemyY[i], i)
 
-     #bullet stuff
+    #bullet stuff
     if bulletY <= 0:
         bulletY = 480
         bullet_State = "ready"
